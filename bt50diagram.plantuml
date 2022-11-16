@@ -1,0 +1,125 @@
+@startuml name bt50diagram
+
+!$sheets = { 
+  "billSheets": [
+    {
+      "billSheetID": 13812,
+      "billSheetName": "aaafffff",
+      "billSheetSummary": "",
+      "billCount": 2161,
+      "hiddenBillCount": 0,
+      "archived": false,
+      "createDate": "07/05/2018",
+      "updateDate": "08/18/2020"
+    },
+    {
+      "billSheetID": 1563,
+      "billSheetName": "Health Insurance Exchanges",
+      "billSheetSummary": "PPACA Tracker designed to help more easily track the changing state health insurance legislation.",
+      "billCount": 1,
+      "hiddenBillCount": 0,
+      "archived": false,
+      "createDate": "09/12/2012",
+      "updateDate": "09/12/2012"
+    },
+    {
+      "billSheetID": 79645,
+      "billSheetName": "Education",
+      "billSheetSummary": "PPACA Tracker designed to help more easily track the changing state health insurance legislation.",
+      "billCount": 1,
+      "hiddenBillCount": 0,
+      "archived": false,
+      "createDate": "09/12/2012",
+      "updateDate": "09/12/2012"
+    },
+    {
+      "billSheetID": 8392,
+      "billSheetName": "Trans-specific",
+      "billSheetSummary": "PPACA Tracker designed to help more easily track the changing state health insurance legislation.",
+      "billCount": 1,
+      "hiddenBillCount": 0,
+      "archived": false,
+      "createDate": "09/12/2012",
+      "updateDate": "09/12/2012"
+    },
+    {
+      "billSheetID": 3897,
+      "billSheetName": "Curriculum",
+      "billSheetSummary": "PPACA Tracker designed to help more easily track the changing state health insurance legislation.",
+      "billCount": 1,
+      "hiddenBillCount": 0,
+      "archived": false,
+      "createDate": "09/12/2012",
+      "updateDate": "09/12/2012"
+    },
+    {
+      "billSheetID": 65436,
+      "billSheetName": "Healthcare Bans",
+      "billSheetSummary": "PPACA Tracker designed to help more easily track the changing state health insurance legislation.",
+      "billCount": 19,
+      "hiddenBillCount": 0,
+      "archived": false,
+      "createDate": "09/12/2012",
+      "updateDate": "09/12/2012"
+    }
+  ]
+}
+
+!$parentList = {
+  "childIDs": [
+    {
+      "childID": 3897,
+      "parentIDs": [
+        79645,
+        65436
+      ]
+    },
+    {
+      "childID": 79645,
+      "parentIDs": [
+        13812
+      ]
+    },
+    {
+      "childID": 1563,
+      "parentIDs": [
+        13812
+      ]
+    },
+    {
+      "childID": 65436,
+      "parentIDs": [
+        13812
+      ]
+    }
+  ]
+}
+
+!unquoted procedure $createObject($name, $summary, $id, $count, $tier)
+    object "$name" as bs##$id  {
+        <b>BT50 ID:</b> $id
+        <b>Bills:</b> $count     
+    }
+!endprocedure
+            
+!$i = 0
+
+!foreach $q in $sheets.billSheets
+  $createObject($q.billSheetName, "$q.billSheetSummary", "$q.billSheetID", "$q.billCount", %substr(q.sheetName", 0, 1))
+	!$i = $i+1
+!endfor 
+
+object Sheets {
+    $i
+}
+
+!foreach $a in $parentList.childIDs 
+  !$f = %size($a.parentIDs)
+  !$f = $f -1
+  !while $f > -1
+    bs##$a.parentIDs[$f] <-- bs##$a.childID
+    !$f = $f - 1
+  !endwhile
+!endfor
+
+@enduml
