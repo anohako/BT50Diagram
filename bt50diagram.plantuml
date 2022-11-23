@@ -1,77 +1,1100 @@
 @startuml name bt50diagram
 
-!$sheets = { 
-  "billSheets": [
-    {
-      "billSheetID": 13812,
-      "billSheetName": "aaafffff",
-      "billSheetSummary": "",
-      "billCount": 2161,
-      "hiddenBillCount": 0,
-      "archived": false,
-      "createDate": "07/05/2018",
-      "updateDate": "08/18/2020"
-    },
-    {
-      "billSheetID": 1563,
-      "billSheetName": "Health Insurance Exchanges",
-      "billSheetSummary": "PPACA Tracker designed to help more easily track the changing state health insurance legislation.",
-      "billCount": 1,
-      "hiddenBillCount": 0,
-      "archived": false,
-      "createDate": "09/12/2012",
-      "updateDate": "09/12/2012"
-    },
-    {
-      "billSheetID": 79645,
-      "billSheetName": "Education",
-      "billSheetSummary": "PPACA Tracker designed to help more easily track the changing state health insurance legislation.",
-      "billCount": 1,
-      "hiddenBillCount": 0,
-      "archived": false,
-      "createDate": "09/12/2012",
-      "updateDate": "09/12/2012"
-    },
-    {
-      "billSheetID": 8392,
-      "billSheetName": "Trans-specific",
-      "billSheetSummary": "PPACA Tracker designed to help more easily track the changing state health insurance legislation.",
-      "billCount": 1,
-      "hiddenBillCount": 0,
-      "archived": false,
-      "createDate": "09/12/2012",
-      "updateDate": "09/12/2012"
-    },
-    {
-      "billSheetID": 3897,
-      "billSheetName": "Curriculum",
-      "billSheetSummary": "PPACA Tracker designed to help more easily track the changing state health insurance legislation.",
-      "billCount": 1,
-      "hiddenBillCount": 0,
-      "archived": false,
-      "createDate": "09/12/2012",
-      "updateDate": "09/12/2012"
-    },
-    {
-      "billSheetID": 65436,
-      "billSheetName": "Healthcare Bans",
-      "billSheetSummary": "PPACA Tracker designed to help more easily track the changing state health insurance legislation.",
-      "billCount": 19,
-      "hiddenBillCount": 0,
-      "archived": false,
-      "createDate": "09/12/2012",
-      "updateDate": "09/12/2012"
-    }
-  ]
+' This JSON can be replaced with a file from the BT50 API.
+!$sheets = {          
+{
+   "billSheets":[
+      {
+         "billSheetID":30604,
+         "billSheetName":"[C] 2022 Mike HIV Crim/Decrim",
+         "billSheetSummary":"",
+         "billCount":94,
+         "hiddenBillCount":3,
+         "archived":false,
+         "createDate":"01/28/2022",
+         "updateDate":"01/28/2022"
+      },
+      {
+         "billSheetID":32979,
+         "billSheetName":"[S] Curriculum \u002B Books \u002B Don\u0027t Say Gay",
+         "billSheetSummary":"",
+         "billCount":120,
+         "hiddenBillCount":3,
+         "archived":false,
+         "createDate":"06/24/2022",
+         "updateDate":"06/24/2022"
+      },
+      {
+         "billSheetID":29925,
+         "billSheetName":"1 2022 HIV All",
+         "billSheetSummary":"",
+         "billCount":113,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"01/11/2022"
+      },
+      {
+         "billSheetID":29918,
+         "billSheetName":"1 2022 LGBTQ\u002B All",
+         "billSheetSummary":"",
+         "billCount":1004,
+         "hiddenBillCount":12,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/14/2022"
+      },
+      {
+         "billSheetID":29928,
+         "billSheetName":"1 2022 Trans-specific All",
+         "billSheetSummary":"",
+         "billCount":236,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"03/16/2022"
+      },
+      {
+         "billSheetID":29903,
+         "billSheetName":"2 2022 Bathrooms (BR)",
+         "billSheetSummary":"",
+         "billCount":24,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"01/11/2022"
+      },
+      {
+         "billSheetID":29909,
+         "billSheetName":"2 2022 Criminal Justice/JJ (CJ)",
+         "billSheetSummary":"",
+         "billCount":127,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"01/11/2022"
+      },
+      {
+         "billSheetID":30614,
+         "billSheetName":"2 2022 Data Collection (DC)",
+         "billSheetSummary":"",
+         "billCount":77,
+         "hiddenBillCount":2,
+         "archived":false,
+         "createDate":"01/28/2022",
+         "updateDate":"01/28/2022"
+      },
+      {
+         "billSheetID":29912,
+         "billSheetName":"2 2022 Discrim/Nondiscrim (ND)",
+         "billSheetSummary":"",
+         "billCount":153,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"01/11/2022"
+      },
+      {
+         "billSheetID":29907,
+         "billSheetName":"2 2022 Harm Reduction (HR)",
+         "billSheetSummary":"",
+         "billCount":56,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29901,
+         "billSheetName":"2 2022 Healthcare (HC)",
+         "billSheetSummary":"",
+         "billCount":290,
+         "hiddenBillCount":4,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"01/11/2022"
+      },
+      {
+         "billSheetID":29904,
+         "billSheetName":"2 2022 HIV (HIV)",
+         "billSheetSummary":"",
+         "billCount":87,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/10/2022"
+      },
+      {
+         "billSheetID":29917,
+         "billSheetName":"2 2022 Identity Documents (ID)",
+         "billSheetSummary":"",
+         "billCount":24,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"01/11/2022"
+      },
+      {
+         "billSheetID":29915,
+         "billSheetName":"2 2022 Labor (LAB)",
+         "billSheetSummary":"",
+         "billCount":19,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"01/11/2022"
+      },
+      {
+         "billSheetID":30619,
+         "billSheetName":"2 2022 Marriage and Family (FAM)",
+         "billSheetSummary":"",
+         "billCount":20,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/28/2022",
+         "updateDate":"01/28/2022"
+      },
+      {
+         "billSheetID":29902,
+         "billSheetName":"2 2022 Schools (EDU)",
+         "billSheetSummary":"",
+         "billCount":257,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"01/11/2022"
+      },
+      {
+         "billSheetID":30675,
+         "billSheetName":"2 2022 Trans-specific (T)",
+         "billSheetSummary":"[curated]",
+         "billCount":203,
+         "hiddenBillCount":4,
+         "archived":false,
+         "createDate":"01/30/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29916,
+         "billSheetName":"2 2022 Voting",
+         "billSheetSummary":"[curated]",
+         "billCount":49,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29855,
+         "billSheetName":"3 2022 BR Access",
+         "billSheetSummary":"[curated]",
+         "billCount":19,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29857,
+         "billSheetName":"3 2022 BR Bounty",
+         "billSheetSummary":"[curated]",
+         "billCount":3,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29856,
+         "billSheetName":"3 2022 BR CJ Sex Crimes/Voyeurism",
+         "billSheetSummary":"[curated]",
+         "billCount":2,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29858,
+         "billSheetName":"3 2022 BR Other",
+         "billSheetSummary":"[curated]",
+         "billCount":4,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29874,
+         "billSheetName":"3 2022 CJ Bail",
+         "billSheetSummary":"[curated]",
+         "billCount":2,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":30651,
+         "billSheetName":"3 2022 CJ Hate Crimes",
+         "billSheetSummary":"",
+         "billCount":35,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/28/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29878,
+         "billSheetName":"3 2022 CJ HC Healthcare",
+         "billSheetSummary":"[curated]",
+         "billCount":10,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29873,
+         "billSheetName":"3 2022 CJ Panic Defense",
+         "billSheetSummary":"[curated]",
+         "billCount":11,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29947,
+         "billSheetName":"3 2022 CJ Policing",
+         "billSheetSummary":"[curated]",
+         "billCount":45,
+         "hiddenBillCount":2,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29875,
+         "billSheetName":"3 2022 CJ Sentencing",
+         "billSheetSummary":"[curated]",
+         "billCount":81,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29946,
+         "billSheetName":"3 2022 CJ Sex Work",
+         "billSheetSummary":"[curated]",
+         "billCount":44,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29877,
+         "billSheetName":"3 2022 CJ T Placement",
+         "billSheetSummary":"[curated]",
+         "billCount":18,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29876,
+         "billSheetName":"3 2022 CJ T Property",
+         "billSheetSummary":"[curated]",
+         "billCount":4,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29879,
+         "billSheetName":"3 2022 CJ Visitation",
+         "billSheetSummary":"[curated]",
+         "billCount":1,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"01/11/2022"
+      },
+      {
+         "billSheetID":30613,
+         "billSheetName":"3 2022 DC (LGBT)",
+         "billSheetSummary":"[curated]",
+         "billCount":68,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/28/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":30608,
+         "billSheetName":"3 2022 DC (T)",
+         "billSheetSummary":"[curated]",
+         "billCount":10,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/28/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29850,
+         "billSheetName":"3 2022 EDU Books",
+         "billSheetSummary":"[curated]",
+         "billCount":23,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29848,
+         "billSheetName":"3 2022 EDU Bullying",
+         "billSheetSummary":"[curated]",
+         "billCount":5,
+         "hiddenBillCount":2,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29854,
+         "billSheetName":"3 2022 EDU Campus Free Speech Extremism",
+         "billSheetSummary":"[curated]",
+         "billCount":21,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29849,
+         "billSheetName":"3 2022 EDU Curriculum",
+         "billSheetSummary":"[curated]",
+         "billCount":112,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/14/2022"
+      },
+      {
+         "billSheetID":29851,
+         "billSheetName":"3 2022 EDU Don\u2019t Say Gay",
+         "billSheetSummary":"[curated]",
+         "billCount":18,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29852,
+         "billSheetName":"3 2022 EDU Misgendering/Deadnaming",
+         "billSheetSummary":"[curated]",
+         "billCount":9,
+         "hiddenBillCount":3,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":30373,
+         "billSheetName":"3 2022 EDU Other",
+         "billSheetSummary":"[curated]",
+         "billCount":32,
+         "hiddenBillCount":4,
+         "archived":false,
+         "createDate":"01/21/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29853,
+         "billSheetName":"3 2022 EDU Outing",
+         "billSheetSummary":"[curated]",
+         "billCount":26,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29942,
+         "billSheetName":"3 2022 EDU Sex Ed",
+         "billSheetSummary":"[curated]",
+         "billCount":34,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29847,
+         "billSheetName":"3 2022 EDU T Athlete Bans (AB)",
+         "billSheetSummary":"",
+         "billCount":48,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":30618,
+         "billSheetName":"3 2022 FAM (LGBT)",
+         "billSheetSummary":"[curated]",
+         "billCount":19,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/28/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":30617,
+         "billSheetName":"3 2022 FAM (T)",
+         "billSheetSummary":"[curated]",
+         "billCount":1,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/28/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29894,
+         "billSheetName":"3 2022 FAM Adoption",
+         "billSheetSummary":"[curated]",
+         "billCount":4,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29893,
+         "billSheetName":"3 2022 FAM Foster Care",
+         "billSheetSummary":"[curated]",
+         "billCount":7,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29892,
+         "billSheetName":"3 2022 FAM Marriage Equality",
+         "billSheetSummary":"[curated]",
+         "billCount":18,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29891,
+         "billSheetName":"3 2022 FAM Officiants",
+         "billSheetSummary":"[curated]",
+         "billCount":2,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29895,
+         "billSheetName":"3 2022 FAM Parentage",
+         "billSheetSummary":"[curated]",
+         "billCount":6,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29896,
+         "billSheetName":"3 2022 FAM Parental Rights",
+         "billSheetSummary":"[curated]",
+         "billCount":17,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29890,
+         "billSheetName":"3 2022 FAM State Out",
+         "billSheetSummary":"[curated]",
+         "billCount":0,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"01/11/2022"
+      },
+      {
+         "billSheetID":29844,
+         "billSheetName":"3 2022 HC Medicaid",
+         "billSheetSummary":"[curated]",
+         "billCount":8,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29841,
+         "billSheetName":"3 2022 HC Medical Conscience",
+         "billSheetSummary":"[curated]",
+         "billCount":11,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29845,
+         "billSheetName":"3 2022 HC Other",
+         "billSheetSummary":"[curated]",
+         "billCount":60,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29843,
+         "billSheetName":"3 2022 HC Repro",
+         "billSheetSummary":"[curated]",
+         "billCount":77,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/01/2022"
+      },
+      {
+         "billSheetID":30246,
+         "billSheetName":"3 2022 HC T Healthcare Ban (HCB)",
+         "billSheetSummary":"",
+         "billCount":35,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/19/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29840,
+         "billSheetName":"3 2022 HC Trans (T)",
+         "billSheetSummary":"",
+         "billCount":62,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/01/2022"
+      },
+      {
+         "billSheetID":29861,
+         "billSheetName":"3 2022 HIV Crim/Decrim",
+         "billSheetSummary":"[curated]",
+         "billCount":13,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29863,
+         "billSheetName":"3 2022 HIV Discrim/Nondiscrim",
+         "billSheetSummary":"[curated]",
+         "billCount":4,
+         "hiddenBillCount":4,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29860,
+         "billSheetName":"3 2022 HIV HC Molecular Surveillance",
+         "billSheetSummary":"[curated]",
+         "billCount":5,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29859,
+         "billSheetName":"3 2022 HIV HC PEP/PrEP",
+         "billSheetSummary":"[curated]",
+         "billCount":28,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29865,
+         "billSheetName":"3 2022 HIV HC Testing",
+         "billSheetSummary":"[curated]",
+         "billCount":17,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29864,
+         "billSheetName":"3 2022 HIV HIV HC Funding",
+         "billSheetSummary":"[curated]",
+         "billCount":15,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29868,
+         "billSheetName":"3 2022 HR CJ Good Sam",
+         "billSheetSummary":"[curated]",
+         "billCount":2,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29948,
+         "billSheetName":"3 2022 HR Decrim/Legalization",
+         "billSheetSummary":"[curated]",
+         "billCount":19,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29870,
+         "billSheetName":"3 2022 HR HC HIV SCS",
+         "billSheetSummary":"[curated]",
+         "billCount":5,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29867,
+         "billSheetName":"3 2022 HR HC MAT",
+         "billSheetSummary":"[curated]",
+         "billCount":9,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29869,
+         "billSheetName":"3 2022 HR HC Naloxone",
+         "billSheetSummary":"[curated]",
+         "billCount":4,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29866,
+         "billSheetName":"3 2022 HR HIV HC Syringe Exchange",
+         "billSheetSummary":"[curated]",
+         "billCount":15,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29899,
+         "billSheetName":"3 2022 ID Ease of Change",
+         "billSheetSummary":"[curated]",
+         "billCount":18,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29900,
+         "billSheetName":"3 2022 ID NB Markers",
+         "billSheetSummary":"[curated]",
+         "billCount":13,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/23/2022"
+      },
+      {
+         "billSheetID":29897,
+         "billSheetName":"3 2022 LAB Min Wage",
+         "billSheetSummary":"[curated]",
+         "billCount":11,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29898,
+         "billSheetName":"3 2022 LAB Preemption",
+         "billSheetSummary":"[curated]",
+         "billCount":9,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/25/2022"
+      },
+      {
+         "billSheetID":29881,
+         "billSheetName":"3 2022 ND EDU Education",
+         "billSheetSummary":"[curated]",
+         "billCount":25,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/22/2022"
+      },
+      {
+         "billSheetID":29882,
+         "billSheetName":"3 2022 ND Employment",
+         "billSheetSummary":"[curated]",
+         "billCount":39,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/22/2022"
+      },
+      {
+         "billSheetID":29883,
+         "billSheetName":"3 2022 ND HC Healthcare",
+         "billSheetSummary":"[curated]",
+         "billCount":16,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/22/2022"
+      },
+      {
+         "billSheetID":29884,
+         "billSheetName":"3 2022 ND Housing",
+         "billSheetSummary":"[curated]",
+         "billCount":30,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/22/2022"
+      },
+      {
+         "billSheetID":29885,
+         "billSheetName":"3 2022 ND Insurance",
+         "billSheetSummary":"[curated]",
+         "billCount":2,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/22/2022"
+      },
+      {
+         "billSheetID":29880,
+         "billSheetName":"3 2022 ND Omnibus",
+         "billSheetSummary":"[curated]",
+         "billCount":20,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":30202,
+         "billSheetName":"3 2022 ND Other",
+         "billSheetSummary":"[curated]",
+         "billCount":118,
+         "hiddenBillCount":2,
+         "archived":false,
+         "createDate":"01/18/2022",
+         "updateDate":"02/14/2022"
+      },
+      {
+         "billSheetID":29888,
+         "billSheetName":"3 2022 ND Preemption",
+         "billSheetSummary":"[curated]",
+         "billCount":5,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29886,
+         "billSheetName":"3 2022 ND Public Accomodations",
+         "billSheetSummary":"[curated]",
+         "billCount":4,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29887,
+         "billSheetName":"3 2022 ND Public Services",
+         "billSheetSummary":"[curated]",
+         "billCount":1,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29889,
+         "billSheetName":"3 2022 ND Religious",
+         "billSheetSummary":"[curated]",
+         "billCount":22,
+         "hiddenBillCount":2,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":30650,
+         "billSheetName":"4 2022 CJ Hate Crimes (LGBT)",
+         "billSheetSummary":"[curated]",
+         "billCount":33,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/28/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":30649,
+         "billSheetName":"4 2022 CJ Hate Crimes (T)",
+         "billSheetSummary":"[curated]",
+         "billCount":2,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/28/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29839,
+         "billSheetName":"4 2022 EDU T AB Allowed w/ Requirements",
+         "billSheetSummary":"[curated]",
+         "billCount":2,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29838,
+         "billSheetName":"4 2022 EDU T AB Birth Certificate",
+         "billSheetSummary":"[curated]",
+         "billCount":18,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29837,
+         "billSheetName":"4 2022 EDU T AB Bounty",
+         "billSheetSummary":"[curated]",
+         "billCount":29,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29833,
+         "billSheetName":"4 2022 EDU T AB Elmentary",
+         "billSheetSummary":"[curated]",
+         "billCount":41,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29834,
+         "billSheetName":"4 2022 EDU T AB High School",
+         "billSheetSummary":"[curated]",
+         "billCount":42,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29836,
+         "billSheetName":"4 2022 EDU T AB Inspection",
+         "billSheetSummary":"[curated]",
+         "billCount":3,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29835,
+         "billSheetName":"4 2022 EDU T AB Uni",
+         "billSheetSummary":"[curated]",
+         "billCount":37,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29842,
+         "billSheetName":"4 2022 HC Conversion Therapy",
+         "billSheetSummary":"[curated]",
+         "billCount":22,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29830,
+         "billSheetName":"4 2022 HC T HCB Chemical Interventions",
+         "billSheetSummary":"[curated]",
+         "billCount":33,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29821,
+         "billSheetName":"4 2022 HC T HCB Child Abuse",
+         "billSheetSummary":"[curated]",
+         "billCount":7,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29822,
+         "billSheetName":"4 2022 HC T HCB Health Insurance",
+         "billSheetSummary":"[curated]",
+         "billCount":6,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29824,
+         "billSheetName":"4 2022 HC T HCB Licensing ",
+         "billSheetSummary":"[curated]",
+         "billCount":11,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":30247,
+         "billSheetName":"4 2022 HC T HCB Other",
+         "billSheetSummary":"[curated]",
+         "billCount":6,
+         "hiddenBillCount":2,
+         "archived":false,
+         "createDate":"01/19/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29823,
+         "billSheetName":"4 2022 HC T HCB Provider Insurance",
+         "billSheetSummary":"[curated]",
+         "billCount":0,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29825,
+         "billSheetName":"4 2022 HC T HCB Public Funding",
+         "billSheetSummary":"[curated]",
+         "billCount":13,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29831,
+         "billSheetName":"4 2022 HC T HCB Surgery",
+         "billSheetSummary":"[curated]",
+         "billCount":33,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29829,
+         "billSheetName":"4 2022 HC T HCB Talk Therapy",
+         "billSheetSummary":"[curated]",
+         "billCount":5,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29827,
+         "billSheetName":"4 2022 HC T HCB Under 18",
+         "billSheetSummary":"[curated]",
+         "billCount":30,
+         "hiddenBillCount":2,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29828,
+         "billSheetName":"4 2022 HC T HCB Under 21",
+         "billSheetSummary":"[curated]",
+         "billCount":3,
+         "hiddenBillCount":0,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      },
+      {
+         "billSheetID":29832,
+         "billSheetName":"4 2022 HC T Other",
+         "billSheetSummary":"[curated]",
+         "billCount":27,
+         "hiddenBillCount":1,
+         "archived":false,
+         "createDate":"01/11/2022",
+         "updateDate":"02/21/2022"
+      }
+   ]
+}
 }
 
+' This JSON can be replaced with a file describing relationships child to parents
 !$parentList = {
   "childIDs": [
     {
-      "childID": 3897,
+      "childID": 35204, /' HC T Other '/
       "parentIDs": [
-        79645,
-        65436
+        35156, /' HC T '/
       ]
     },
     {
@@ -95,30 +1118,72 @@
   ]
 }
 
+' This JSON can be replaces with a file describing relationships parent to children
+!$childList = {
+  "xParentIDs": [
+    {
+      "xParentID": 35156, /'HC T '/ 
+      "xChildIDs": [
+        35202,
+        35201,
+        35200,
+        35199,
+        35198,
+        35197,
+        35196,
+        35195,
+        35194,
+        35193
+      ]
+    },
+    {
+      "xParentID": 84573,
+      "xChildIDs": [
+        57945
+      ]
+    }
+  ]      
+}
+
+' This procedure creates an object for the given JSON node
 !unquoted procedure $createObject($name, $summary, $id, $count, $tier)
     object "$name" as bs##$id  {
         <b>BT50 ID:</b> $id
         <b>Bills:</b> $count     
     }
 !endprocedure
-            
+
+' This variable is for counting the number of objects created             
 !$i = 0
 
+' This loop creates an object using $createObject for every node in the $sheets JSON
 !foreach $q in $sheets.billSheets
   $createObject($q.billSheetName, "$q.billSheetSummary", "$q.billSheetID", "$q.billCount", %substr(q.sheetName", 0, 1))
 	!$i = $i+1
 !endfor 
 
+' This debug object shows the number of objects created for comparison to the original JSON file
 object Sheets {
     $i
 }
 
+' This loop draws the connections for child -> parent connections from the $parentList JSON
 !foreach $a in $parentList.childIDs 
   !$f = %size($a.parentIDs)
   !$f = $f -1
   !while $f > -1
     bs##$a.parentIDs[$f] <-- bs##$a.childID
     !$f = $f - 1
+  !endwhile
+!endfor
+
+' This loop draws the connections for parent -> child connections from the $childList JSON
+!foreach $x in $childList.xParentIDs
+  !$g = %size($x.xChildIDs)
+  !$g = $g -1
+  !while $g > -1
+    bs##$x.xParentID <-- bs##$x.xChildIDs[$g]
+    !$g = $g - 1
   !endwhile
 !endfor
 
